@@ -1,0 +1,102 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 244, 249) ;
+}
+
+#Section1{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#shoppingcart{
+    width:8%;
+    height: 13%;
+    background-color: white;
+    border: 1px black solid ;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;  
+}
+
+#delivery{
+    width: 50px;
+    height: 50px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+#Section2{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border: 1px;    
+    border-color: black;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#trangchu{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#caphe{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#tra{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#sanpham{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#khuyenmai{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#vechungtoi{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#the{
+    box-sizing:border-box;
+    padding: 30px;
+} 
+#tim{
+    box-sizing:border-box;
+    padding: 30px;
+}
+#Section3{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-color: rgba(81, 156, 120, 1);
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+}
+#hinh{
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}

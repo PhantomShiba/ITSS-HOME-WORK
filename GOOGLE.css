@@ -1,0 +1,134 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 249) ;
+}
+.topLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 50%;
+    
+    
+}
+
+#MAIN-RIGHT{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    display: flex; 
+    justify-content:space-evenly;
+    flex-direction: column;
+    box-sizing:border-box;
+    padding: 30px;
+    }
+
+
+#MAIN-LEFT{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px ;
+    display: flex; 
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    }
+
+#DOWN{
+    width: 70%;   
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.right-settings{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+    #LOGO{
+    width: 70px;
+    height: 70px;
+}
+#LOGO > img {
+    width: 100%;
+    height: 100%;
+}
+
+#SIGN-IN{
+    width: 50%;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items:first baseline
+}
+
+#USE{
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items:first baseline
+}
+
+#FORM{
+    width: 95%;
+    height: 13%;
+    background-color: white;
+    /* justify-content: center; */
+    border: 1px black solid ;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;  
+}
+#NEXTBOX{
+    width: 42%;
+    height: 20%;
+    background-color: rgb(12, 88, 208);
+    border: 0px ;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 20px;  
+}
+#EMAIL-OR-PHONE{
+    
+}
+#FORGOT-EMAIL{
+
+}
+#NOT-YOUR{
+
+}
+
+#MORE{
+
+}
+
+#CREATE-ACCOUNT{
+
+}
+#NEXT{
+    align-items:center;
+    box-sizing: border-box;
+    padding: 10px;  
+    text-align: center;
+}
